@@ -1,0 +1,16 @@
+.form-inline{
+    margin-left: 1%;
+}
+
+#dashName{
+    text-align: center;
+}
+
+.anchortag{
+    text-decoration: none !important;
+    color: white !important;
+}
+.nav-link{
+    text-decoration: none !important;
+    color: white !important;
+}
