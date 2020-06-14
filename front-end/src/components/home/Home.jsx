@@ -57,7 +57,7 @@ class Home extends Component {
           </Fade>
         </div>
         <div className="content">
-          <h2 style={{ color: "white" }}>News Feeds And Patch Notes</h2>
+          <h2 style={{ color: "white" }}>News Feeds And Patch Notes...</h2>
           <br />
           {this.state.newsList.map((news) => (
             <div className="card" key={news._id}>

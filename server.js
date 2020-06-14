@@ -7,7 +7,7 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 const path = require('path');
 
-mongoose.connect(process.env.DATABASE_URL, {
+mongoose.connect(process.env.MONGODB_URI || process.env.DATABASE_URL, {
   useUnifiedTopology: true,
   useNewUrlParser: true,
 });
